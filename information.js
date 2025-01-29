@@ -3,7 +3,7 @@
 export const chinweike = () =>{
     return{
         email: "chinweiketwitter@gmail.com",
-        currentDateTime: new Date().toISOString(),
-        githubUrl: "https://github.com/Chinweike99"
+        current_datetime: new Date().toISOString(),
+        github_url: "https://github.com/Chinweike99"
     };
 };
