@@ -23,3 +23,5 @@ A simple public API that returns basic information.
  - Open your browser.
  - Visit the API endpoint: https://your-render-url.onrender.com.
  - You should see the JSON response displayed in your browser.
+
+ -**Full-stack developer: https://hng.tech/hire/nodejs-developers**
