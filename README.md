@@ -2,7 +2,7 @@
 A simple public API that returns basic information.
 
 ## API Endpoint
-- **URL** ``
+- **URL** `https://hng12-backend-task0.onrender.com`
 - **Method** `GET`
 
 ## Response Format
