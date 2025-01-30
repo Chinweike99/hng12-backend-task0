@@ -1,5 +1,5 @@
-import express from 'express';
-import cors from 'cors';
+import express from "express";
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 3200;
@@ -8,18 +8,14 @@ const port = process.env.PORT || 3200;
 app.use(cors());
 
 app.get("/", (req, res) => {
-      try {
-        const response = {
-          email: "chinweiketwitter@gmail.com",
-          current_datetime: new Date().toISOString(),
-          github_url: "https://github.com/Chinweike99"
-      };
-        res.status(200).json(response);
-      } catch (error) {
-        console.log(error)
-      }
+  const response = {
+    email: "chinweiketwitter@gmail.com",
+    current_datetime: new Date().toISOString(),
+    github_url: "https://github.com/Chinweike99",
+  };
+  res.status(200).json(response);
 });
 
-app.listen(port, ()=>{
-  console.log(`Server successfully running on http://localhost${port}`)
-})
+app.listen(port, () => {
+  console.log(`Server successfully running on http://localhost:${port}`);
+});
